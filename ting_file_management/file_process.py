@@ -3,6 +3,7 @@ from ting_file_management.file_management import txt_importer
 
 processed_files = set()
 
+
 def process(path_file, instance):
     for path in range(len(instance)):
         file = instance.search(path)
